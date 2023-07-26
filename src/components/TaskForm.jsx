@@ -22,14 +22,14 @@ function TaskForm() {
         <h1 className="text-2xl text-white font-bold mb-3">Crea tu tarea</h1>
         <input
           type="text"
-          className="bg-slate-300 p-3 w-full mb-2"
+          className="bg-slate-300 p-3 w-full mb-2 rounded-sm"
           placeholder="Escribe tu tarea"
           onInput={(e) => setTitle(e.target.value)}
           value={title}
           autoFocus
         />
         <textarea
-          className="bg-slate-300 p-3 w-full mb-2"
+          className="bg-slate-300 p-3 w-full mb-2 rounded-sm"
           placeholder="Description"
           name="description"
           id="description"
